@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "afd8de3b-3347-4cc0-aaa3-f417e0be25b3",
+		"name": "DocFav - Prueba técnica Villegas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3875398"
+	},
+	"item": [
+		{
+			"name": "Listar usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "first_name",
+							"value": "Antú",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Villegas",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "villegas@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345678",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		}
+	]
+}
